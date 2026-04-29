@@ -5,9 +5,7 @@ Program simulasi tentang pengelolaan barang bekas dengan menggunakan kotak. User
 
 Source Code :
 <img width="542" height="460" alt="Image" src="https://github.com/user-attachments/assets/fa9297fb-f274-4c24-8a81-ece90822523c" />
-
 <img width="526" height="428" alt="Image" src="https://github.com/user-attachments/assets/15fa3ffd-03f0-4fd6-ab08-72d2a81d8bf5" />
-
 <img width="291" height="371" alt="Image" src="https://github.com/user-attachments/assets/83c675e8-f2f5-461b-8d43-3fcab0e74890" />
 
 Penjelasan : 
@@ -74,7 +72,7 @@ Baris 71, Menampilkan pesan "Menu tidak valid".
 Baris 73, Memanggil fungsi menu() untuk menjalankan program.
 
 Output :
-
+<img width="124" height="93" alt="Image" src="https://github.com/user-attachments/assets/6ee447dc-fdf0-4a02-9946-54124af17f72" />
 
 Penjelasan :
 Bila memilih 1, program menampilkan daftar/list setiap barang. Jika User memilih 2, user bisa menambahkan barang ke ke kotak. Jika memilih 3, user menmbuang barang dari kotak. Bila memilih 4, program menampilkan isi kotak. Jika memilih 5, program akan berhenti.
