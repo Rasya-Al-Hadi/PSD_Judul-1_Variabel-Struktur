@@ -9,6 +9,7 @@ Source Code :
 <img width="291" height="371" alt="Image" src="https://github.com/user-attachments/assets/83c675e8-f2f5-461b-8d43-3fcab0e74890" />
 
 Penjelasan : 
+
 Baris 1: Membuat sebuah list (daftar) bernama Barang yang berisi koleksi string 
 
 Baris 2: Sebuah list kosong bernama kotak yang nantinya akan menampung barang-barang yang dipilih user.
