@@ -4,7 +4,11 @@ Deskripsi :
 Program simulasi tentang pengelolaan barang bekas dengan menggunakan kotak. User dapat melihat daftar barang-barang, memilih barang untuk dimasukkan ke dalam kotak, membuang barang yang tidak disimpan serta melihat isi dari kotak. Program ini menggunakan list 1 dimensi sebagai penyimpanan data. List 1 dimensi juga merupakan bentuk struktur linier yang paling sederhana. Penggunaan list 1 dimensi sangat umum umum dalam pengolahan data yang tersusun secara berurutan serta menggunakan operasi Insert dan delete pada list.
 
 Source Code :
+<img width="542" height="460" alt="Image" src="https://github.com/user-attachments/assets/fa9297fb-f274-4c24-8a81-ece90822523c" />
 
+<img width="526" height="428" alt="Image" src="https://github.com/user-attachments/assets/15fa3ffd-03f0-4fd6-ab08-72d2a81d8bf5" />
+
+<img width="291" height="371" alt="Image" src="https://github.com/user-attachments/assets/83c675e8-f2f5-461b-8d43-3fcab0e74890" />
 
 Penjelasan : 
 Baris 1: Membuat sebuah list (daftar) bernama Barang yang berisi koleksi string 
