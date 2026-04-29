@@ -1,0 +1,81 @@
+Judul Program : Proses Pengelolaan Barang Bekas menggunakan Kotak
+
+Deskripsi :
+Program simulasi tentang pengelolaan barang bekas dengan menggunakan kotak. User dapat melihat daftar barang-barang, memilih barang untuk dimasukkan ke dalam kotak, membuang barang yang tidak disimpan serta melihat isi dari kotak. Program ini menggunakan list 1 dimensi sebagai penyimpanan data. List 1 dimensi juga merupakan bentuk struktur linier yang paling sederhana. Penggunaan list 1 dimensi sangat umum umum dalam pengolahan data yang tersusun secara berurutan serta menggunakan operasi Insert dan delete pada list.
+
+Source Code :
+<img width="542" height="460" alt="Image" src="https://github.com/user-attachments/assets/fa9297fb-f274-4c24-8a81-ece90822523c" />
+<img width="526" height="428" alt="Image" src="https://github.com/user-attachments/assets/15fa3ffd-03f0-4fd6-ab08-72d2a81d8bf5" />
+<img width="291" height="371" alt="Image" src="https://github.com/user-attachments/assets/83c675e8-f2f5-461b-8d43-3fcab0e74890" />
+
+Penjelasan : 
+Baris 1: Membuat sebuah list (daftar) bernama Barang yang berisi koleksi string 
+Baris 2: Sebuah list kosong bernama kotak yang nantinya akan menampung barang-barang yang dipilih user.
+Baris 4: Mendefinisikan fungsi Lihat_Barang
+Baris 5: Menampilkan teks "Daftar barang:" ke layar .
+Baris 6: Melakukan perulangan pada list barang enumerate digunakan untuk mengambil indeks (i) dan isi barang (b) secara bersamaan, dimulai dari angka 1.
+Baris 7: Mencetak nomor urut dan nama barang menggunakan f-string.
+Baris 9: Mendefinisikan fungsi masuk_dalam_kotak.
+Baris 10, Memanggil fungsi Lihat_Barang untuk menampilkan List/daftar barang.
+Baris 11, Memulai blok try untuk menangani error input.
+Baris 12, Meminta input nomor barang, mengubah ke integer, lalu dikurangi 1.
+Baris 13, Mengecek apakah index berada dalam range list barang.
+Baris 14, Menambahkan barang ke dalam kotak.
+Baris 15, Menampilkan pesan "barang dimasukkan kedalam kotak."
+Baris 16, Menangani kondisi jika input tidak valid.
+Baris 17, Menangkap error jika input bukan angka.
+Baris 18, Menampilkan pesan error input harus angka.
+Baris 21, Mendefinisikan fungsi buang_dari_kotak.
+Baris 22, Mengecek apakah kotak sudah kosong.
+Baris 23, Menampilkan pesan jika kotak kosong.
+Baris 24, Menghentikan fungsi dengan return.
+Baris 26, Menampilkan teks "Isi Kotak:".
+Baris 27, Melakukan perulangan untuk isi kotak.
+Baris 28, Menampilkan nomor dan nama barang dalam kotak.
+Baris 30, Memulai blok try.
+Baris 31, Meminta input nomor yang ingin dihapus.
+Baris 32, Mengecek apakah index valid.
+Baris 33, Menghapus item dari kotak menggunakan pop().
+Baris 34, Menampilkan pesan dibuang dari kotak.
+Baris 35, Menangani jika pilihan tidak valid.
+Baris 36, Menangkap error input.
+Baris 37, Menampilkan pesan error.
+Baris 40, Mendefinisikan fungsi Lihat_Kotak.
+Baris 41, Mengecek apakah kotak kosong.
+Baris 42, Menampilkan pesan jika kotak kosong.
+Baris 43, Masuk ke kondisi jika kotak tidak kosong.
+Baris 44, Menampilkan teks "Isi Kotak:".
+Baris 45, Melakukan perulangan isi kotak.
+Baris 46, Menampilkan nomor dan nama barang.
+Baris 48: Mendefinisikan Fungsi menu utama untuk menjalankan antarmuka program.
+Baris 49: (while True) Membuat perulangan terus-menerus agar program tidak langsung berhenti setelah satu aksi.
+Baris 50, Menampilkan judul menu
+Baris 51, Menampilkan pilihan menu 1.
+Baris 52, Menampilkan pilihan menu 2.
+Baris 53, Menampilkan pilihan menu 3
+Baris 54, Menampilkan pilihan menu 4.
+Baris 55, Menampilkan pilihan menu 5.
+Baris 57, Meminta input pilihan menu dari user.
+Baris 59, Mengecek jika user memilih menu 1.
+Baris 60, Memanggil fungsi Lihat Barang.
+Baris 61, Mengecek jika user memilih menu 2.
+Baris 62, Memanggil fungsi masuk dalam kotak.
+Baris 63, Mengecek jika user memilih menu 3.
+Baris 64, Memanggil fungsi buang dari kotak.
+Baris 65, Mengecek jika user memilih menu 4.
+Baris 66, Memanggil fungsi Lihat Kotak.
+Baris 67, Mengecek jika user memilih menu 5.
+Baris 68, Menampilkan pesan Semoga Bermanfaat.
+Baris 69, Menghentikan program dengan break.
+Baris 70, Menangani jika pilihan tidak valid.
+Baris 71, Menampilkan pesan "Menu tidak valid".
+Baris 73, Memanggil fungsi menu() untuk menjalankan program.
+
+Output :
+<img width="124" height="93" alt="Image" src="https://github.com/user-attachments/assets/6ee447dc-fdf0-4a02-9946-54124af17f72" />
+
+Penjelasan :
+Bila memilih 1, program menampilkan daftar/list setiap barang. Jika User memilih 2, user bisa menambahkan barang ke ke kotak. Jika memilih 3, user menmbuang barang dari kotak. Bila memilih 4, program menampilkan isi kotak. Jika memilih 5, program akan berhenti.
+
+Link Video Dokumentasi :
+https://youtu.be/hzSTg5AIE0M?si=r-VkQNLvZzed_cC3
